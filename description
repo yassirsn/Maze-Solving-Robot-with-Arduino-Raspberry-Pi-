@@ -1,0 +1,20 @@
+🤖 Maze-Solving Robot with Arduino & Raspberry Pi
+🚀 Autonomous Maze-Solving Robot that uses Breadth-First Search (BFS) for pathfinding, real-time Pygame visualization, and Bluetooth communication between Raspberry Pi and Arduino.
+
+🔹 Features
+✅ BFS Pathfinding – Efficient algorithm to solve the maze
+✅ Real-Time Visualization – Uses Pygame to track the robot’s movement
+✅ Arduino Control – Handles motor movement and ultrasonic sensor readings
+✅ Bluetooth Communication – Sends movement commands via HC-06 module
+✅ EEPROM Storage – Saves learned paths for optimized future runs
+
+🔍 Technologies Used
+Arduino Uno (Motor control, sensor data processing)
+Raspberry Pi (Path planning, Bluetooth communication)
+Python (PySerial, Pygame for visualization)
+C++ (Arduino IDE) (Low-level motor control)
+🚀 How It Works
+Arduino reads distances using an ultrasonic sensor and sends data to Raspberry Pi.
+Raspberry Pi calculates the shortest path using BFS and visualizes the maze.
+HC-06 Bluetooth module transmits movement commands to Arduino.
+Arduino controls the motors to move the robot based on the computed path.
